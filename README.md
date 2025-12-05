@@ -48,7 +48,7 @@ Using MySQL CLI:
 ```sql
 SOURCE bankdb.sql;
 ```
-## SQL QUERIES 1 to 10 (All in One)
+## SQL QUERIES
 
 1. SELECT Queries
 -----------------
