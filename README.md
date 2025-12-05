@@ -143,6 +143,7 @@ JOIN account USING(customer_id)
 ORDER BY balance DESC LIMIT 1;
 ```
 
-SELECT DISTINCT c.first_name, c.last_name FROM customer c
+```SELECT DISTINCT c.first_name, c.last_name FROM customer c
 JOIN account a ON c.customer_id=a.customer_id
 JOIN loan l ON a.account_id=l.account_id;
+```
